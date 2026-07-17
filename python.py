@@ -41,4 +41,14 @@ else:
     print(num1/num2)'''
 
 #dictionary
-num1 = 3
+#dictionary: key: value
+# good cz any data type and can put default value also
+'''monthCoverstions = {
+    "Jan" : "January",
+    "Feb" : "February",
+    "Mar" : "March",
+    "Apr" : "April"
+}
+
+#print(monthCoverstions["Apr"])
+print(monthCoverstions.get("Dec", "Not a valid key"))'''
