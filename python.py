@@ -99,3 +99,69 @@ if out_of_guesses:
 else:
     print("You win!")
     '''
+'''friends = ["Jim", "Karen", "Kevin"]
+for index in range(5):
+    if index == 0: 
+        print("First")
+    else: 
+        print("not first")'''
+
+'''def raise_to_number(base_num,pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result*base_num
+
+    return result
+print(raise_to_number(3,2))'''
+
+#2d lists 
+'''number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+#print(number_grid[2][2])
+
+for row in number_grid:
+    for col in row:
+        print(col)'''
+
+#translator: vowels are "g"
+
+'''def translate(phrase):
+    translation = ""
+    for letter in phrase: 
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translation = translation + "G"
+            else:
+             translation = translation + "g"
+        else:
+            translation = translation + letter
+    return translation
+print(translate(input("Enter a phrase: ")))
+'''
+
+#try/except 
+
+'''try: 
+    value = 10/0
+    number = int(input("Ener a number: "))
+    print(number)
+
+except ZeroDivisionError as err:
+    print(err)
+except ValueError:
+    print("Invalid input")
+'''
+
+#reading files "r" "w"write "a"append "r+"read and write
+'''employee_file = open("employee1.txt", "w")
+employee_file.write("\nkell - hr")
+employee_file.close()'''
+
+#modules 
+#import modeule_name
+
+#classes and objects
